@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AARADANA G – Portfolio</title>
+  <meta name="description" content="Portfolio of AARADANA G – Web Developer & Aspiring Tech Professional" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">AARADANA<span class="dot">.</span></a>
+
+      <!-- Desktop links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Mobile hamburger -->
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section id="hero" class="hero fade-in-up">
+      <!-- Floating decorative shapes -->
+      <div class="float-shape shape-1"></div>
+      <div class="float-shape shape-2"></div>
+      <div class="float-shape shape-3"></div>
+      <div class="float-shape shape-4"></div>
+
+      <div class="hero-content">
+        <p class="hero-welcome">Welcome to my portfolio</p>
+        <h1>AARADANA G</h1>
+        <p class="hero-subtitle">Web Developer | Aspiring Tech Professional</p>
+        <p class="hero-intro">
+          A passionate web developer who loves building clean, user-friendly, and responsive websites using modern web technologies.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="about fade-in-up">
+      <div class="section-container">
+        <h2>About <span class="highlight">Me</span></h2>
+        <div class="about-grid">
+          <!-- Profile image -->
+          <div class="about-image">
+            <div class="avatar-ring">
+              <img src="https://ui-avatars.com/api/?name=AG&background=e8b4c8&color=fff&size=256&font-size=0.4&bold=true" alt="AARADANA G profile avatar" />
+            </div>
+          </div>
+          <!-- Text content -->
+          <div class="about-text">
+            <p>
+              A dedicated web developer with strong fundamentals in HTML, CSS, and JavaScript.
+              Passionate about building responsive and user-friendly web applications.
+              Currently seeking internship and bootcamp opportunities to expand technical
+              skills and contribute to real-world projects.
+            </p>
+            <ul class="about-highlights">
+              <li><span class="bullet"></span>Strong understanding of web fundamentals</li>
+              <li><span class="bullet"></span>Responsive design enthusiast</li>
+              <li><span class="bullet"></span>Quick learner and team player</li>
+              <li><span class="bullet"></span>Passionate about continuous growth in tech</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section id="skills" class="skills fade-in-up">
+      <div class="section-container">
+        <h2>My <span class="highlight">Skills</span></h2>
+
+        <h3 class="skills-category">Technical Skills</h3>
+        <div class="skills-grid skills-grid-3">
+          <div class="skill-card"><div class="skill-icon">H</div><h4>HTML</h4></div>
+          <div class="skill-card"><div class="skill-icon">C</div><h4>CSS</h4></div>
+          <div class="skill-card"><div class="skill-icon">J</div><h4>JavaScript</h4></div>
+        </div>
+
+        <h3 class="skills-category">Web Concepts</h3>
+        <div class="skills-grid skills-grid-3">
+          <div class="skill-card"><div class="skill-icon">R</div><h4>Responsive Design</h4></div>
+          <div class="skill-card"><div class="skill-icon">B</div><h4>Basic UI/UX Principles</h4></div>
+          <div class="skill-card"><div class="skill-icon">C</div><h4>Clean Code Practices</h4></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="projects fade-in-up">
+      <div class="section-container">
+        <h2>My <span class="highlight">Projects</span></h2>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl0Sj5TduF8j9BiSPDn22cqwd9jy-IJfHkQQ&s" alt="Cloud Kitchen Website project screenshot" loading="lazy" />
+          </div>
+          <div class="project-body">
+            <h3>Cloud Kitchen Website</h3>
+            <span class="project-badge">Mini Project</span>
+            <p>
+              A responsive website designed for a cloud kitchen business. Includes menu display,
+              contact section, and clean layout for user-friendly navigation.
+            </p>
+            <ul class="project-features">
+              <li><span class="bullet-sm"></span>Responsive layout</li>
+              <li><span class="bullet-sm"></span>Clean UI</li>
+              <li><span class="bullet-sm"></span>Structured sections</li>
+              <li><span class="bullet-sm"></span>Basic interactivity using JavaScript</li>
+            </ul>
+            <div class="project-buttons">
+              <a href="http://127.0.0.1:5500/final/cloudkitchen.html/cloud.html" class="btn btn-primary btn-sm">View Project</a>
+              <a href="https://github.com/Aaradana06/web" class="btn btn-outline btn-sm">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GOALS ========== -->
+    <section id="goals" class="goals fade-in-up">
+      <div class="section-container text-center">
+        <h2>My <span class="highlight">Goals</span></h2>
+        <div class="goals-card">
+          <div class="goals-icon">⚡</div>
+          <p>
+            Currently seeking internship and bootcamp opportunities to gain hands-on industry
+            experience, improve problem-solving skills, and grow as a professional web developer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="contact fade-in-up">
+      <div class="section-container">
+        <h2>Get In <span class="highlight">Touch</span></h2>
+        <div class="contact-grid">
+          <!-- Contact info -->
+          <div class="contact-info">
+            <h3>Let's Connect</h3>
+            <p>I'd love to hear from you! Whether it's an opportunity, collaboration, or just a hello.</p>
+            <div class="contact-links">
+              <a href="mailto:aaradanag0@gmail.com" class="contact-link">
+                <span class="contact-icon icon-email">✉</span>
+                aaradanag0@gmail.com
+              </a>
+              <a href="https://github.com/Aaradana06" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span class="contact-icon icon-github">⌨</span>
+                https://github.com/Aaradana06
+              </a>
+              <a href="https://www.linkedin.com/in/aaradana-g" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span class="contact-icon icon-linkedin">in</span>
+                https://www.linkedin.com/in/aaradana-g
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact form -->
+          <form id="contactForm" class="contact-form" novalidate>
+            <div id="successMsg" class="success-msg" style="display:none;">
+              Thank you! Your message has been sent.
+            </div>
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Your Name" required />
+              <p class="error-text" id="nameError"></p>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Your Email" required />
+              <p class="error-text" id="emailError"></p>
+            </div>
+            <div class="form-group">
+              <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+              <p class="error-text" id="messageError"></p>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-links">
+      <a href="mailto:aaradanag0@gmail.com">Email</a>
+      <a href="https://github.com/Aaradana06" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/aaradana-g" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </div
+    <p class="footer-copy">&copy; 2026 AARADANA G</p>
+    <p class="footer-tagline">Designed &amp; Developed with passion.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
